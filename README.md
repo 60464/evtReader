@@ -9,6 +9,6 @@ The OpenBackupEventLog function provided by the win32evtlog module of the pywin3
 Evtx库只能解析.evtx格式的文件，如果需要对WIN7/WIN10等本地操作系统日志进行监控时，使用该库是一个不错的选择。但是这个库无法解析.evt文件。  
 Evtx library can only parse .evtx format files, if you need to monitor the local operating system logs such as WIN7/WIN10, use the library is a good choice. But this library cannot parse .evt files.  
 当前面的方法都没办法解决我们的问题时，我们可以尝试对.evt文件的二进制格式直接进行解析。.evt文件格式描述可以参考如下文档：
-https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc
+https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc  
 When none of the current methods can solve our problem, we can try to parse the binary format of the.evt file directly. For the description of the.evt file format, see the following documents:
-https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc
+https://github.com/libyal/libevt/blob/main/documentation/Windows%20Event%20Log%20(EVT)%20format.asciidoc  
